@@ -79,7 +79,7 @@ article img {
     float: right;
     width: 125px;
     border: 5px solid rgba(0 0 0 / 10%);
-    box-shadow: rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0 0 0 / 10%);
 }
 .history, .adventure {
     width: 100%;
