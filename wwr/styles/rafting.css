@@ -10,7 +10,7 @@
     --primary-text-color: #282626;
     --secondary-text-color: darkblue;
     --body-font: Arial, Helvetica, sans-serif;
-    --header-font: Roboto, sans-serif, Arial; 
+    --header-font: sans-serif, Arial; 
 }
 
 body {
@@ -78,7 +78,7 @@ article {
 article img {
     float: right;
     width: 125px;
-    border: 5px solid rgba(0 0 0 / 0.1);
+    border: 5px solid rgba(0 0 0 / 10%);
     box-shadow: rgba(0, 0, 0, 0.1);
 }
 .history, .adventure {
