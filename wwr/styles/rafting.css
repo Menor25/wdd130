@@ -68,12 +68,14 @@ nav, p, section, article {
 .socialmedia a{
     text-decoration: none;
 }
+
 .socialmedia a img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin: 10px;
 }
+
 .hero {
     position: relative;
 }
@@ -108,6 +110,7 @@ article img {
     width: 125px;
     border: 5px solid rgba(0 0 0 / 10%);
 }
+
 .history .grid {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
