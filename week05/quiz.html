@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Form</title>
+    <meta name="description" content="Simple quiz form">
+    <meta name="author" content="Theophilus Ajiri Menor">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1>Basic HTML and CSS Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1"><span>1.</span> What does the acronym CSS stands for?</label>
+                <input type="text" name="q1" id="q1">
+            </div>
+            <div class="quiz-item box">
+                <label for="q2"><span>2.</span> How are the attributes defined in HTML?</label>
+                <textarea name="q2" id="q2"></textarea>
+            </div>
+            <div class="quiz-item box">
+                <label for="q3"><span>3.</span> What does the acronym DOM stands for?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="Document Object Model">Document Object Model</option>
+                    <option value="Data Object Model">Data Object Model</option>
+                    <option value="Document Orientation Model">Document Orientation Model</option>
+                </select>
+            </div>
+            <div class="quiz-item box">
+                <label for="q4"><span>4.</span> What is the bottom margin given this declaration?</label>
+                <code>margin: 10px 5px 15px;</code>
+                <input type="number" name="q4" id="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
