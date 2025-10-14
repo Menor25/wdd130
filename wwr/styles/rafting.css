@@ -217,18 +217,21 @@ footer {
     padding: .5rem;
 }
 
-.contact-section form button {
+button {
     background-color: var(--secondary-text-color);
     color: #fff;
-    border: none;
-    padding: .75rem;
-    font-size: 1rem;
+    border: none; 
     cursor: pointer;
-    border-radius: 4px;
 }
 
-.contact-section form button:hover {
+button:hover {
     background-color: var(--primary-bg-color);
+}
+
+.contact-section form button {
+    padding: .75rem;
+    font-size: 1rem;
+    border-radius: 4px;
 }
 
 .mission h2 {
@@ -244,4 +247,164 @@ footer {
 .mission-grid figure img {
     width: 100px;
     height: 100px;
+}
+
+/* Newsletter */
+.newsletter {
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.newsletter .newsletter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.newsletter .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .newsletter-form form {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+.newsletter .newsletter-form input {
+    padding: .7rem;
+    border-color: var(--secondary-bg-color);
+    margin: .5rem;
+}
+.newsletter .newsletter-form input::placeholder {
+    font-size: 1rem;
+}
+
+.newsletter .newsletter-form button {
+    padding: .73rem;
+    margin-left: -4.4px;
+    border-color: var(--secondary-bg-color);
+    font-size: 1rem;
+}
+
+/* Call to action */
+.call-to-action, .about-section {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    height: .18rem;
+    background-color: var(--secondary-text-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.call-to-action h2{
+    padding-top: 1rem;
+}
+
+.call-to-action .image-grid {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.call-to-action .image-grid img, .about-section .about-section-grid img, .trip-area .card-trip .card img {
+    width: 100%;
+    height: auto;
+}
+
+.call-to-action button, .trip-call-to-action button {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.call-to-action button a, .trip-call-to-action button a, .trip-area .card-trip .card button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* About home section */
+.about-section .about-section-grid {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Trips page */
+.trip-call-to-action, .trip-area {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.trip-call-to-action p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.trip-call-to-action button {
+    width: 300px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.trip-area .card-trip {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trip-area .card-trip .card {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: .2rem;
+    padding: .5rem;
+}
+
+.trip-area .card-trip .card button {
+    padding: 1rem;
+    width: 200px;
+    margin: .5rem;
+}
+
+.trip-list {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.trip-list table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.trip-list table td, th {
+    border: 1px solid #dddddd;
+    padding: .5rem;
+}
+
+.trip-list table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trip-list table tr:hover {
+    background-color: #dddddd;
+}
+
+.trip-list table th {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    text-align: left;
+    background-color: var(--secondary-text-color);
+    color: #ffffff;
 }
